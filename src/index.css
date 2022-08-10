@@ -1127,8 +1127,12 @@ caption {
 }
 
 .striped-table tbody tr:nth-child(odd) {
-  background-color: #f8f8f8;
+  background-color: #a191f9;
 }
+.striped-table tbody tr:nth-child(even) {
+  background-color: #5df48f;
+}
+
 
 .contain-table {
   overflow-x: auto;
