@@ -1,4 +1,4 @@
-.header_container{
+.header_container {
   display: flex;
   justify-content: space-between;
 }
@@ -549,7 +549,7 @@ dd {
 .container,
 .small-container,
 .medium-container {
-  
+
   max-width: 1200px;
   padding: 0 1rem;
   margin-left: auto;
@@ -816,7 +816,8 @@ button:hover,
 [type='reset']:hover,
 [type='button']:hover {
   border: 2px solid #a403ee;
-  background: #b747eb;;
+  background: #b747eb;
+  ;
   color: whitesmoke;
   text-decoration: none;
 }
@@ -833,8 +834,10 @@ button:active,
 [type='reset']:active,
 [type='button']:focus,
 [type='button']:active {
-  border: 1px solid #a403ee;;
-  background: #b74ee8;;
+  border: 1px solid #a403ee;
+  ;
+  background: #b74ee8;
+  ;
   color: #ffffff;
   text-decoration: none;
 }
@@ -1112,6 +1115,7 @@ caption {
 .striped-table tbody tr:nth-child(odd) {
   background-color: #c682e6;
 }
+
 .striped-table tbody tr:nth-child(even) {
   background-color: #eff8f2;
 }
@@ -1119,22 +1123,26 @@ caption {
 
 .contain-table {
   overflow-x: auto;
- 
+
 }
+
 th {
   background-color: #c764f5;
 }
+
 table {
   border: 1px solid white;
 
   border-collapse: collapse;
   border-spacing: 10px;
 }
+
 td {
   background-color: #96D4D4;
- 
+
 
 }
+
 tbody {
   margin-top: 10px;
 }
@@ -1146,4 +1154,3 @@ tbody {
     width: 100%;
   }
 }
-
