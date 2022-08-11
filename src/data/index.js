@@ -1,83 +1,79 @@
 const employeesData = [
     {
       id: 1,
-      firstName: 'Susan',
-      lastName: 'Jordon',
-      email: 'susan@example.com',
-      salary: '95000',
-      date: '2019-04-11'
+      firstName: 'Ravi',
+      lastName: 'Nayak',
+      email: 'ravi@gmail.com',
+      mobile: '7863532667'
     },
     {
       id: 2,
-      firstName: 'Adrienne',
-      lastName: 'Doak',
-      email: 'adrienne@example.com',
-      salary: '80000',
-      date: '2019-04-17'
+      firstName: 'Deepak',
+      lastName: 'Kunwar',
+      email: 'deepak@gmail.com',
+      mobile: '9856325411'
     },
     {
       id: 3,
-      firstName: 'Rolf',
-      lastName: 'Hegdal',
-      email: 'rolf@example.com',
-      salary: '79000',
-      date: '2019-05-01'
+      firstName: 'Hamid',
+      lastName: 'Quadri',
+      email: 'hamid@gmail.com',
+      mobile: '8965231457'
     },
     {
       id: 4,
-      firstName: 'Kent',
-      lastName: 'Rosner',
-      email: 'kent@example.com',
-      salary: '56000',
-      date: '2019-05-03'
+      firstName: 'Raja',
+      lastName: 'Sethi',
+      email: 'raja@gmail.com',
+      mobile: '7859856458'
     },
     {
       id: 5,
-      firstName: 'Arsenio',
-      lastName: 'Grant',
-      email: 'arsenio@example.com',
-      salary: '65000',
-      date: '2019-06-13'
+      firstName: 'Pratik',
+      lastName: 'Mohanty',
+      email: 'pratik@gmail.com',
+      mobile: '8635471259'
+
     },
     {
       id: 6,
-      firstName: 'Laurena',
-      lastName: 'Lurie',
-      email: 'laurena@example.com',
-      salary: '120000',
-      date: '2019-07-30'
+      firstName: 'Adarsa',
+      lastName: 'Swain',
+      email: 'adarsh@gmail.com',
+      mobile: '7008542154'
+
     },
     {
       id: 7,
-      firstName: 'George',
-      lastName: 'Tallman',
-      email: 'george@example.com',
-      salary: '90000',
-      date: '2019-08-15'
+      firstName: 'Arjun',
+      lastName: 'Shyam',
+      email: 'arjun@gmail.com',
+      mobile: '7968745896'
+
     },
     {
       id: 8,
-      firstName: 'Jesica',
-      lastName: 'Watlington',
-      email: 'jesica@example.com',
-      salary: '60000',
-      date: '2019-10-10'
+      firstName: 'Subhra',
+      lastName: 'Das',
+      email: 'subhra@gmail.com',
+      mobile: '7857458965'
+
     },
     {
       id: 9,
-      firstName: 'Matthew',
-      lastName: 'Warren',
-      email: 'matthew@example.com',
-      salary: '71000',
-      date: '2019-10-15'
+      firstName: 'Sourav',
+      lastName: 'Panda',
+      email: 'sourav@gmail.com',
+      mobile: '7698541236'
+
     },
     {
       id: 10,
-      firstName: 'Lyndsey',
-      lastName: 'Follette',
-      email: 'lyndsey@example.com',
-      salary: '110000',
-      date: '2020-01-15'
+      firstName: 'Bibhu',
+      lastName: 'Samanta',
+      email: 'bibhu@gmail.com',
+      mobile: '7863532667'
+
     }
   ];
   

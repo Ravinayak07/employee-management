@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { employeesData } from "../../data";
+import { employeesData } from "../data";
 import Swal from "sweetalert2";
 
-import Header from "./Header";
-import List from "./List";
-import Add from "./Add";
-import Edit from "./Edit";
+import Header from "../components/Header";
+import List from "../components/List";
+import Add from "../components/Add";
+import Edit from "../components/Edit";
 
-function Dashboard() {
+function HomePage() {
   const [employees, setEmployees] = useState(employeesData);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
   const [isAdding, setIsAdding] = useState(false);
@@ -20,13 +20,12 @@ function Dashboard() {
     setIsEditing(true);
   };
 
-  const handleDelete = (id) => {
+  const handleDeactivate = (id) => {
     Swal.fire({
       icon: "warning",
       title: "Are you sure?",
-      text: "You won't be able to revert this!",
       showCancelButton: true,
-      confirmButtonText: "Yes, delete it!",
+      confirmButtonText: "Yes, Deactivate it!",
       cancelButtonText: "No, cancel!",
     }).then((result) => {
       if (result.value) {
@@ -34,8 +33,8 @@ function Dashboard() {
 
         Swal.fire({
           icon: "success",
-          title: "Deleted!",
-          text: `${employee.firstName} ${employee.lastName}'s data has been deleted.`,
+          title: "Deactivated!",
+          text: `${employee.firstName} ${employee.lastName}'s data has been Deactivated.`,
           showConfirmButton: false,
           timer: 1500,
         });
@@ -54,7 +53,7 @@ function Dashboard() {
           <List
             employees={employees}
             handleEdit={handleEdit}
-            handleDelete={handleDelete}
+            handleDeactivate={handleDeactivate}
           />
         </>
       )}
@@ -80,4 +79,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default HomePage;

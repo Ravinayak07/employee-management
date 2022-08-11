@@ -1,12 +1,6 @@
 import React from 'react'
 
-function List({ employees, handleEdit, handleDelete }) {
-
-    const formatter = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: null
-    });
+function List({ employees, handleEdit, handleDeactivate }) {
 
     return (
         <div className='contain-table'>
@@ -17,8 +11,8 @@ function List({ employees, handleEdit, handleDelete }) {
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Email</th>
-                        <th>Salary</th>
-                        <th>Date</th>
+                        <th>Mobile</th>
+                        
                         <th colSpan={2} className="text-center">
                             Actions
                         </th>
@@ -32,8 +26,8 @@ function List({ employees, handleEdit, handleDelete }) {
                                 <td>{employee.firstName}</td>
                                 <td>{employee.lastName}</td>
                                 <td>{employee.email}</td>
-                                <td>{formatter.format(employee.salary)}</td>
-                                <td>{employee.date} </td>
+                                <td>{employee.mobile}</td>
+                                
                                 <td className="text-right">
                                     <button
                                         onClick={() => handleEdit(employee.id)}
@@ -44,10 +38,10 @@ function List({ employees, handleEdit, handleDelete }) {
                                 </td>
                                 <td className="text-left">
                                     <button
-                                        onClick={() => handleDelete(employee.id)}
+                                        onClick={() => handleDeactivate(employee.id)}
                                         className="button muted-button"
                                     >
-                                        Delete
+                                        Deactivate
                                     </button>
                                 </td>
                             </tr>
